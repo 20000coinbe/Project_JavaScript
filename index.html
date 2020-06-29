@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='index.css'>
+</head>
+<body>
+    <div class='js-clock'> <!-- JS에서도 똑같은 이름을 쓰기위해 js-clock이라고 해주자 -->
+        <h1 class="js-title"></h1> <!-- <h1>00:00</h1>과 동일-->
+    </div>
+    <!-- 저장하기하기 위한 FORM 사용 -->
+    <form class='js-form form'>
+        <input type='text' placeholder="what is your Name"/>
+    </form>
+    <h4 class='js-greeting greetings'></h4>
+    <!-- TODOLIST -->
+    <form class="js-toDoForm">
+        <input type='text' placeholder="write a to do">
+    </form>
+    <ul class='js-toDoList'>
+        <!-- <li class='' id='1'></li> -->
+    </ul>
+    <span class='js-weather'></span>
+    <script src='clock.js'></script>
+    <script src='gretting.js'></script>
+    <script src='todo.js'></script>
+    <script src='weather.js'></script>
+    <script src='bg.js'></script>
+</body>
+</html>
